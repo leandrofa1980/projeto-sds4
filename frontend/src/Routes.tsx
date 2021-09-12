@@ -3,7 +3,7 @@ import Home from 'pages/Home';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 
-const Routs = () => {
+const Routes = () => {
   return (
     <BrowserRouter>
       <Switch>
@@ -18,4 +18,4 @@ const Routs = () => {
   );
 }
 
-export default Routs;
+export default Routes;
